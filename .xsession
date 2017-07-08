@@ -12,4 +12,6 @@ done
 
 /home/gonzalo/code/sctd &
 
-/usr/local/bin/spectrwm 2> ~/spectrwm/.spectrwm.log
+xset -b
+conky &
+cwm
