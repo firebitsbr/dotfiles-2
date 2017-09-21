@@ -1,41 +1,55 @@
 !!! Colores
 
-*.foreground:		#e3e0d5
-*.background:		#494949
-*.cursorColor:		#c2c2b0
+*background:			#262626
+*foreground:			#f1f1f1
 
 ! black
-*.color0:		#000000
-*.color8:		#7C7B7B
+*color0:			#000000
+
+! bright_black
+*color8:			#262626
 
 ! red
-*.color1:		#FFB300
-*.color9:		#E1B03D
+*color1:			#83586e
+
+! bright_red
+*color9:			#b590a2
 
 ! green
-*.color2:		#719611
-*.color10:		#b1d631
+*color2:			#6e8358
+
+! bright_green
+*color10:			#a2b590
 
 ! yellow
-!*.color3:		#cc8800
-*.color3:		#ff9800
-*.color11:		#87875f
+*color3:			#836e58
+
+! bright_yellow
+*color11:			#b5a290
 
 ! blue
-*.color4:		#6688aa
-*.color12:		#90b0d1
+*color4:			#586e83
+
+! bright_blue
+*color12:			#90a2b5
 
 ! magenta
-*.color5:		#8f6f8f
-*.color13:		#8181a6
+*color5:			#6e5883
+
+! bright_magenta
+*color13:			#a290b5
 
 ! cyan
-*.color6:		#528b8b
-*.color14:		#87ceeb
+*color6:			#58836e
+
+! bright_cyan
+*color14:			#90b5a2
 
 ! white
-*.color7:		#d3d3d3
-*.color15:		#c1cdc1
+*color7:			#a0a0a0
+
+! bright_white
+*color15:			#f1f1f1
 
 !!! Font
 *.font:				-*-lucida-medium-r-*-*-8-*-*-*-*-*-*-*
@@ -43,13 +57,14 @@
 !!! xterm-specific settings
 *.scrollbar:			true
 *.scrollbar.minimumThumb:	50
+*scrollbar.foreground:		#bbb
 *.scrollbar*width:		9
 *.saveLines:			1500
 
 XTerm*locale:			true
 *locale:			UTF-8
 
-XTerm*loginShell: true
+XTerm*loginShell:		true
 
 xterm*background:		#494949
 xterm*foreground:		#e3e0d5
@@ -71,6 +86,15 @@ xterm*cursorColor:		#c2c2b0
 *.XTerm.*.termName:		xterm-256color
 
 *.XTerm.*.visualBell:		false
+
+!!! xLock
+XIdle.timeout:			300
+XLock.grabmouse:		on
+XLock.mode:			blank
+XLock.mousemotion:		on
+XLock.usefirst:			yes
+XLock.lockdelay:		10
+XLock.nice:			19
 
 ! make alt+v/command+v paste clipboard
 *.XTerm.*.VT100.translations:	#override\
