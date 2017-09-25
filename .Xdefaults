@@ -108,3 +108,18 @@ XLock.nice:			19
     <Btn3Down>: StartScroll(Backward) \n\
     <Btn1Motion>: MoveThumb() NotifyThumb() \n\
     <BtnUp>: NotifyScroll(Proportional) EndScroll()
+
+
+!! ssh-askpass
+ssh-askpass*font:			-*-lucida-medium-r-*-*-12-*-*-*-*-*-*-*
+ssh-askpass*foreground:			#f1f1f1
+ssh-askpass*background:			#262626
+ssh-askpass.*.borderWidth:		1
+ssh-askpass.*.borderColor:		black
+ssh-askpass.*.shadowThickness:		0
+ssh-askpass.*Button.borderWidth:	0
+ssh-askpass.*Button.background:		#a0a0a0
+ssh-askpass.indicator.borderWidth:	0
+ssh-askpass.indicator.background:	#a0a0a0
+ssh-askpass.indicator.foreground:	#a290b5
+
