@@ -46,12 +46,12 @@ bind-key	4S-p		menu-exec
 ## Windows, colors & font
 borderwidth	3
 
-color		activeborder	'orange3'
+color		activeborder	'#202060'
 color		font		'#000000'
 color		selfont		'#e9ffe9'
 color		inactiveborder	'rgb:31/31/31'
 color		menubg		'#494949'
-color		menufg		'orange3'
+color		menufg		'#202060'
 
 fontname	"dejavu sans mono:size=7"
 
