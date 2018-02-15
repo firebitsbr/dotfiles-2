@@ -35,5 +35,5 @@ TEXT
 ${color grey}${time %a %d %b %H:%M:%S} \
 | ${color grey}CPU:$color $freq | ${color grey}CPU Usage:$color $cpu% \
 | ${color grey}RAM:$color $mem/$memmax \
-| ${color grey}Net: ${color0}${upspeedf re0}k ${downspeedf re0}k${color} ${color1}|${color} \
+| ${color grey}Net: ${color0}${upspeedf iwm0}k ${downspeedf iwm0}k${color} ${color1}|${color} \
 ${alignr 1}${color3}${exec hostname -s} ~ ${exec whoami}
