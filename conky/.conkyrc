@@ -16,8 +16,8 @@ draw_outline no
 draw_borders no
 draw_graph_borders no
 alignment tl
-maximum_width 1590 1
-minimum_size 1600 13
+maximum_width 2550 1
+minimum_size 2560 13
 gap_x 5
 gap_y 5
 no_buffers yes
@@ -28,12 +28,15 @@ color0 B7B7B7
 color1 black
 color2 red
 color3 orange3
+
+# core
+#display :0.0
 format_human_readable yes
 short_units yes
 
 TEXT
-${color grey}${time %a %d %b %H:%M:%S} \
+${color grey}${time %a %d %b %H:%M} \
 | ${color grey}CPU:$color $freq | ${color grey}CPU Usage:$color $cpu% \
-| ${color grey}RAM:$color $mem/$memmax \
-| ${color grey}Net: ${color0}${upspeedf iwm0}k ${downspeedf iwm0}k${color} ${color1}|${color} \
+| ${color grey}RAM:$color $mem/$memmax | ${color grey}Bat: ${apm_battery_life}${color} \
+${color1}|${color} | ${color grey}Net: ${color0}${upspeedf iwm0}k ${downspeedf iwm0}k${color} ${color1}|${color} \
 ${alignr 1}${color3}${exec hostname -s} ~ ${exec whoami}
