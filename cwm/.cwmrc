@@ -1,30 +1,29 @@
-## Autogroups for windows.
+# Autogroups for windows.
 autogroup	0		xconsole,XConsole
 autogroup	3		"firefox,firefox-bin"
 
-## Add missing keybindings.
-bind-key	4-1		group-only-1
-bind-key	4-2		group-only-2
-bind-key	4-3		group-only-3
-bind-key	4-4		group-only-4
-bind-key	4-5		group-only-5
-bind-key	4-6		group-only-6
-bind-key	4-7		group-only-7
-bind-key	4-8		group-only-8
-bind-key	4-9		group-only-9
-bind-key	4S-1		window-movetogroup-1
-bind-key	4S-2		window-movetogroup-2
-bind-key	4S-3		window-movetogroup-3
-bind-key	4S-4		window-movetogroup-4
-bind-key	4S-5		window-movetogroup-5
-bind-key	4S-6		window-movetogroup-6
-bind-key	4S-7		window-movetogroup-7
-bind-key	4S-8		window-movetogroup-8
-bind-key	4S-9		window-movetogroup-9
+# Add missing keybindings.
+bind-key	M-1		group-only-1
+bind-key	M-2		group-only-2
+bind-key	M-3		group-only-3
+bind-key	M-4		group-only-4
+bind-key	M-5		group-only-5
+bind-key	M-6		group-only-6
+bind-key	M-7		group-only-7
+bind-key	M-8		group-only-8
+bind-key	M-9		group-only-9
+bind-key	MS-1		window-movetogroup-1
+bind-key	MS-2		window-movetogroup-2
+bind-key	MS-3		window-movetogroup-3
+bind-key	MS-4		window-movetogroup-4
+bind-key	MS-5		window-movetogroup-5
+bind-key	MS-6		window-movetogroup-6
+bind-key	MS-7		window-movetogroup-7
+bind-key	MS-8		window-movetogroup-8
+bind-key	MS-9		window-movetogroup-9
 
-## Tiling
-bind-key	4S-space	window-htile
-bind-key	4-space		window-vtile
+bind-key	MS-space	window-htile
+bind-key	M-space		window-vtile
 
 bind-key	C-Up		pointer-move-up
 bind-key	C-Down		pointer-move-down
@@ -36,16 +35,14 @@ bind-key	CS-Down		pointer-move-down-big
 bind-key	CS-Right	pointer-move-right-big
 bind-key	CS-Left		pointer-move-left-big
 
-## Emulate spectrwm
-bind-key	4S-l		lock
-bind-key	4S-r		restart
-bind-key	4S-q		quit
-bind-key	4S-Return	terminal
-bind-key	4S-p		menu-exec
+bind-key	MS-l		lock
+bind-key	MS-r		restart
+bind-key	MS-q		quit
+bind-key	MS-Return	terminal
+bind-key	MS-p		menu-exec
 
-## Windows, colors & font
+## Windows
 borderwidth	3
-
 color		activeborder	'#202060'
 color		font		'#000000'
 color		selfont		'#e9ffe9'
@@ -54,9 +51,7 @@ color		menubg		'#494949'
 color		menufg		'#202060'
 
 fontname	"dejavu sans mono:size=7"
-
-## Gap for conky
-gap		26 0 0 0
+gap		30 0 0 0
 
 ignore		"xconsole"
 ignore		"conky"
