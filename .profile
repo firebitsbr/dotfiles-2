@@ -6,7 +6,7 @@ PATH=$HOME/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/X11R6/bin:/usr/local/bin:/usr/
 export HOME
 umask 022
 
-EDITOR='nano -w'
+EDITOR='vim'
 PS1="\h \u : \w> "
 
 export BROWSER="firefox"
